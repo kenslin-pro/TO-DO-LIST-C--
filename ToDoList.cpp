@@ -1,3 +1,5 @@
+// To Do List
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -13,6 +15,8 @@ public:
         tasks.push_back(task);
         std::cout << "Task added: " << task << std::endl;
     }
+
+    // allow the user to remove task from the list if it is not then task not found will be displayed
 
     void removeTask(const std::string &task)
     {
@@ -51,11 +55,11 @@ int main()
 
     while (true)
     {
-        std::cout << "\n===== To-Do List Manager =====" << std::endl;
-        std::cout << "1. Add Task" << std::endl;
-        std::cout << "2. Remove Task" << std::endl;
-        std::cout << "3. View Tasks" << std::endl;
-        std::cout << "4. Quit" << std::endl;
+        std::cout << "\n***To-Do List Manager ****" << std::endl;
+        std::cout << "a. Add Task" << std::endl;
+        std::cout << "b. Remove Task" << std::endl;
+        std::cout << "c. View Tasks" << std::endl;
+        std::cout << "d. Quit" << std::endl;
 
         int choice;
         std::cout << "Enter your choice (1-4): ";
