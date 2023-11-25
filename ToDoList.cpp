@@ -36,7 +36,7 @@ public:
     {
         if (tasks.empty())
         {
-            std::cout << "No tasks available." << std::endl;
+            std::cout << "No tasks available!" << std::endl;
         }
         else
         {
@@ -71,8 +71,8 @@ int main()
         {
             std::string task;
             std::cout << "Enter the task: ";
-            std::cin.ignore(); // Ignore newline from previous input
-            std::getline(std::cin, task);
+            std::cin.ignore();
+            // std::getline(std::cin, task);
             toDoList.addTask(task);
             break;
         }
@@ -80,8 +80,8 @@ int main()
         {
             std::string task;
             std::cout << "Enter the task to remove: ";
-            std::cin.ignore(); // Ignore newline from previous input
-            std::getline(std::cin, task);
+            std::cin.ignore();
+            // std::getline(std::cin, task);
             toDoList.removeTask(task);
             break;
         }

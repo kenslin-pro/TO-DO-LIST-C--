@@ -4,7 +4,7 @@ I recently developed a console-based to-do list application in C++ to further my
 
 # Software Demonstration
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/edhj5HM_Khg)
 
 In the demonstration video, I walk through the functionality of the to-do list manager, showcasing how users can interact with the application to add, remove, and view tasks. The emphasis is on the code walkthrough, highlighting key aspects of the C++ syntax that I learned and implemented during the development process.
 
@@ -12,14 +12,14 @@ In the demonstration video, I walk through the functionality of the to-do list m
 
 For this project, I used Visual Studio Code as my primary integrated development environment (IDE). Visual Studio Code provides a lightweight yet powerful platform for C++ development, offering features such as syntax highlighting, code completion, and easy integration with version control systems.
 
-The programming language used for this project is C++. I opted for C++ due to its efficiency, flexibility, and widespread use in systems programming. The standard template library (STL) was particularly beneficial for managing data structures like vectors to store and manipulate the tasks.
+The programming language used for this project is C++. I opted for C++ due to its efficiency, flexibility, and widespread use in systems programming. 
 
 # Useful Websites
 
 During the development of the to-do list manager, I found the following websites particularly helpful:
 
 - [cplusplus.com](http://www.cplusplus.com/): A comprehensive resource for C++ documentation, tutorials, and references.
-- [Stack Overflow](https://stackoverflow.com/): An invaluable community-driven platform where I could find solutions to specific coding challenges and seek advice from experienced developers.
+- [W3 school](https://www.w3schools.com/cpp/default.asp)
 
 # Future Work
 
